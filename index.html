@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>S.No.</th>
+    <th>PS Number</th>
+    <th>Winning Chance</th>
+    <th>Prev. Prevalence</th>
+    <th>Problem Statement Title</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>SIH25001</td>
+    <td>85%</td>
+    <td>Medium</td>
+    <td>Smart Community Health Monitoring and Early Warning System for Water-Borne Diseases</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>SIH25002</td>
+    <td>75%</td>
+    <td>Low</td>
+    <td>Smart Tourist Safety Monitoring & Incident Response System using AI, Geo-Fencing, and Blockchain-based Digital ID</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>SIH25004</td>
+    <td>80%</td>
+    <td>High</td>
+    <td>Image based breed recognition for cattle and buffaloes of India</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>SIH25005</td>
+    <td>75%</td>
+    <td>High</td>
+    <td>Image based Animal Type Classification for cattle and buffaloes</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>SIH25006</td>
+    <td>70%</td>
+    <td>Medium</td>
+    <td>Development of a Digital Farm Management Portal for Implementing Biosecurity Measures</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>SIH25007</td>
+    <td>65%</td>
+    <td>Low</td>
+    <td>Digital Portal for Monitoring Maximum Residue Limits (MRL) and Antimicrobial Usage (AMU)</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>SIH25008</td>
+    <td>60%</td>
+    <td>Medium</td>
+    <td>Disaster Preparedness and Response Education System for Schools and Colleges</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>SIH25009</td>
+    <td>78%</td>
+    <td>Medium</td>
+    <td>Gamified Environmental Education Platform for Schools and Colleges</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>SIH25010</td>
+    <td>82%</td>
+    <td>Very High</td>
+    <td>Smart Crop Advisory System for Small and Marginal Farmers</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>SIH25011</td>
+    <td>55%</td>
+    <td>Very High</td>
+    <td>Smart Curriculum Activity & Attendance App</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>SIH25012</td>
+    <td>68%</td>
+    <td>High</td>
+    <td>Automated Attendance System for Rural Schools</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>SIH25013</td>
+    <td>80%</td>
+    <td>High</td>
+    <td>Real-Time Public Transport Tracking for Small Cities</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>SIH25016</td>
+    <td>60%</td>
+    <td>Very High</td>
+    <td>Automated Student Attendance Monitoring and Analytics System for Colleges</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>SIH25017</td>
+    <td>50%</td>
+    <td>High</td>
+    <td>Digital Platform for Centralized Alumni Data Management and Engagement</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>SIH25018</td>
+    <td>88%</td>
+    <td>High</td>
+    <td>Telemedicine Access for Rural Healthcare in Nabha</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>SIH25019</td>
+    <td>72%</td>
+    <td>High</td>
+    <td>Digital Learning Platform for Rural School Students in Nabha</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>SIH25022</td>
+    <td>65%</td>
+    <td>Low</td>
+    <td>Maximizing Section Throughput Using AI-Powered Precise Train Traffic Control</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>SIH25023</td>
+    <td>75%</td>
+    <td>Low</td>
+    <td>AyurSutra- Panchakarma Patient Management and therapy scheduling Software</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>SIH25024</td>
+    <td>78%</td>
+    <td>Very Low</td>
+    <td>Comprehensive Cloud-Based Practice Management & Nutrient Analysis Software for Ayurvedic Dietitians, Tailored for Ayurveda-Focused Diet Plans</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>SIH25026</td>
+    <td>40%</td>
+    <td>Low</td>
+    <td>Develop API code to integrate NAMASTE and or the International Classification of Diseases (ICD-11) via the Traditional Medicine Module 2 (TM2) into existing EMR systems that comply with Electronic Health Record (EHR) Standards for India.</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>SIH25027</td>
+    <td>85%</td>
+    <td>Medium</td>
+    <td>Develop a blockchain-based system for botanical traceability of Ayurvedic herbs, including geo-tagging from the point of collection (farmers/wild collectors) to the final Ayurvedic formulation label.</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>SIH25028</td>
+    <td>70%</td>
+    <td>High</td>
+    <td>Smart Classroom & Timetable Scheduler</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>SIH25029</td>
+    <td>55%</td>
+    <td>Medium</td>
+    <td>Authenticity Validator for Academia</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>SIH25030</td>
+    <td>84%</td>
+    <td>Very High</td>
+    <td>AI-Based Crop Recommendation for Farmers</td>
+  </tr>
+  <tr>
+    <td>31</td>
+    <td>SIH25031</td>
+    <td>75%</td>
+    <td>High</td>
+    <td>Crowdsourced Civic Issue Reporting and Resolution System</td>
+  </tr>
+  <tr>
+    <td>32</td>
+    <td>SIH25032</td>
+    <td>82%</td>
+    <td>Medium</td>
+    <td>Development of a Smart Digital Platform to Promote Eco & Cultural Tourism in Jharkhand</td>
+  </tr>
+  <tr>
+    <td>33</td>
+    <td>SIH25033</td>
+    <td>79%</td>
+    <td>Medium</td>
+    <td>AI-Based Smart Allocation Engine for PM Internship Scheme</td>
+  </tr>
+  <tr>
+    <td>34</td>
+    <td>SIH25034</td>
+    <td>77%</td>
+    <td>Medium</td>
+    <td>AI-Based Internship Recommendation Engine for PM Internship Scheme</td>
+  </tr>
+  <tr>
+    <td>35</td>
+    <td>SIH25035</td>
+    <td>70%</td>
+    <td>High</td>
+    <td>Sentiment analysis of comments received through E-consultation module</td>
+  </tr>
+  <tr>
+    <td>38</td>
+    <td>SIH25038</td>
+    <td>83%</td>
+    <td>Low</td>
+    <td>Blockchain-Based Blue Carbon Registry and MRV System</td>
+  </tr>
+  <tr>
+    <td>39</td>
+    <td>SIH25039</td>
+    <td>78%</td>
+    <td>Low</td>
+    <td>Integrated Platform for Crowdsourced Ocean Hazard Reporting and Social Media Analytics</td>
+  </tr>
+  <tr>
+    <td>40</td>
+    <td>SIH25040</td>
+    <td>65%</td>
+    <td>Very Low</td>
+    <td>FloatChat - AI-Powered Conversational Interface for ARGO Ocean Data Discovery and Visualization</td>
+  </tr>
+  <tr>
+    <td>41</td>
+    <td>SIH25041</td>
+    <td>60%</td>
+    <td>Medium</td>
+    <td>AI-Driven Unified Data Platform for Oceanographic, Fisheries, and Molecular Biodiversity Insights</td>
+  </tr>
+  <tr>
+    <td>42</td>
+    <td>SIH25042</td>
+    <td>55%</td>
+    <td>Very Low</td>
+    <td>Identifying Taxonomy and Assessing Biodiversity from eDNA Datasets</td>
+  </tr>
+  <tr>
+    <td>44</td>
+    <td>SIH25044</td>
+    <td>86%</td>
+    <td>Very High</td>
+    <td>AI-Powered Crop Yield Prediction and Optimization</td>
+  </tr>
+  <tr>
+    <td>45</td>
+    <td>SIH25045</td>
+    <td>87%</td>
+    <td>Medium</td>
+    <td>Blockchain-Based Supply Chain Transparency for Agricultural Produce</td>
+  </tr>
+  <tr>
+    <td>48</td>
+    <td>SIH25048</td>
+    <td>80%</td>
+    <td>Medium</td>
+    <td>Gamified Learning Platform for Rural Education</td>
+  </tr>
+  <tr>
+    <td>49</td>
+    <td>SIH25049</td>
+    <td>82%</td>
+    <td>High</td>
+    <td>AI-Driven Public Health Chatbot for Disease Awareness</td>
+  </tr>
+  <tr>
+    <td>50</td>
+    <td>SIH25050</td>
+    <td>75%</td>
+    <td>High</td>
+    <td>Smart Traffic Management System for Urban Congestion</td>
+  </tr>
+  <tr>
+    <td>52</td>
+    <td>SIH25052</td>
+    <td>88%</td>
+    <td>Medium</td>
+    <td>AR-Based Cultural Heritage Preservation Platform</td>
+  </tr>
+  <tr>
+    <td>59</td>
+    <td>SIH25059</td>
+    <td>45%</td>
+    <td>Very Low</td>
+    <td>Enhancing Student Awareness on difference between Aadhaar linked and Direct Beneficiary Transfer(DBT) enabled Aadhaar seeded bank account.</td>
+  </tr>
+  <tr>
+    <td>60</td>
+    <td>SIH25060</td>
+    <td>70%</td>
+    <td>High</td>
+    <td>Real life solutions for Waste Management.</td>
+  </tr>
+  <tr>
+    <td>61</td>
+    <td>SIH25061</td>
+    <td>84%</td>
+    <td>Medium</td>
+    <td>Digitize and Showcase Monasteries of Sikkim for Tourism and Cultural Preservation</td>
+  </tr>
+  <tr>
+    <td>65</td>
+    <td>SIH25065</td>
+    <td>72%</td>
+    <td>Low</td>
+    <td>Designing and development of an application for on spot assessment of Roof Top Rain water harvesting and artificial recharge potential and size of the RTRWH and AR.</td>
+  </tr>
+  <tr>
+    <td>66</td>
+    <td>SIH25066</td>
+    <td>68%</td>
+    <td>High</td>
+    <td>Development of an AI-driven ChatBOT for INGRES as a virtual assistant</td>
+  </tr>
+  <tr>
+    <td>67</td>
+    <td>SIH25067</td>
+    <td>60%</td>
+    <td>Very Low</td>
+    <td>Proposal for Design and development of application or Heavy Metal Pollution indices</td>
+  </tr>
+  <tr>
+    <td>68</td>
+    <td>SIH25068</td>
+    <td>65%</td>
+    <td>Low</td>
+    <td>Real time Groundwater resource evaluation using DWLR data</td>
+  </tr>
+  <tr>
+    <td>69</td>
+    <td>SIH25069</td>
+    <td>50%</td>
+    <td>Very Low</td>
+    <td>AI-Driven Life Cycle Assessment (LCA) Tool for Advancing Circularity and Sustainability in Metallurgy and Mining</td>
+  </tr>
+  <tr>
+    <td>70</td>
+    <td>SIH25070</td>
+    <td>58%</td>
+    <td>Medium</td>
+    <td>Secure Data Wiping for Trustworthy IT Asset Recycling</td>
+  </tr>
+  <tr>
+    <td>71</td>
+    <td>SIH25071</td>
+    <td>82%</td>
+    <td>Low</td>
+    <td>AI-Based Rockfall Prediction and Alert System for Open-Pit Mines</td>
+  </tr>
+  <tr>
+    <td>73</td>
+    <td>SIH25073</td>
+    <td>85%</td>
+    <td>Medium</td>
+    <td>AI-Powered Mobile Platform for Democratizing Sports Talent Assessment</td>
+  </tr>
+  <tr>
+    <td>74</td>
+    <td>SIH25074</td>
+    <td>83%</td>
+    <td>High</td>
+    <td>AI-Powered Personal Farming Assistant for Kerala Farmers</td>
+  </tr>
+  <tr>
+    <td>75</td>
+    <td>SIH25075</td>
+    <td>81%</td>
+    <td>Medium</td>
+    <td>Gamified Platform to Promote Sustainable Farming Practices</td>
+  </tr>
+  <tr>
+    <td>76</td>
+    <td>SIH25076</td>
+    <td>84%</td>
+    <td>High</td>
+    <td>AI-Based Farmer Query Support and Advisory System</td>
+  </tr>
+  <tr>
+    <td>78</td>
+    <td>SIH25079</td>
+    <td>70%</td>
+    <td>Very Low</td>
+    <td>Software other than a circuit breaker that can be used to detect and turn off LT lines when the line breaks</td>
+  </tr>
+  <tr>
+    <td>79</td>
+    <td>SIH25080</td>
+    <td>65%</td>
+    <td>Medium</td>
+    <td>Document Overload at Kochi Metro Rail Limited (KMRL)-An automated solution</td>
+  </tr>
+  <tr>
+    <td>80</td>
+    <td>SIH25081</td>
+    <td>75%</td>
+    <td>Low</td>
+    <td>AI-Driven Train Induction Planning & Scheduling for Kochi Metro Rail Limited (KMRL)</td>
+  </tr>
+  <tr>
+    <td>81</td>
+    <td>SIH25082</td>
+    <td>60%</td>
+    <td>High</td>
+    <td>Development of a travel related software app that can be installed on mobile phones that could capture trip related information</td>
+  </tr>
+  <tr>
+    <td>82</td>
+    <td>SIH25083</td>
+    <td>89%</td>
+    <td>Medium</td>
+    <td>Digital Health Record Management System for migrant workers in Kerala aligned with sustainable development goals.</td>
+  </tr>
+  <tr>
+    <td>86</td>
+    <td>SIH25091</td>
+    <td>77%</td>
+    <td>High</td>
+    <td>AI-Based Timetable Generation System aligned with NEP 2020 for Multidisciplinary Education Structures</td>
+  </tr>
+  <tr>
+    <td>87</td>
+    <td>SIH25092</td>
+    <td>90%</td>
+    <td>Medium</td>
+    <td>Development of a Digital Mental Health and Psychological Support System for Students in Higher Education</td>
+  </tr>
+  <tr>
+    <td>88</td>
+    <td>SIH25093</td>
+    <td>58%</td>
+    <td>High</td>
+    <td>Centralised Digital Platform for Comprehensive student activity record in HEIs</td>
+  </tr>
+  <tr>
+    <td>89</td>
+    <td>SIH25094</td>
+    <td>80%</td>
+    <td>High</td>
+    <td>One-Stop Personalized Career & Education Advisor</td>
+  </tr>
+  <tr>
+    <td>92</td>
+    <td>SIH25097</td>
+    <td>40%</td>
+    <td>N/A</td>
+    <td>Research and develop a design on autonomous small precision focused machine for planting crops or weeding.</td>
+  </tr>
+  <tr>
+    <td>93</td>
+    <td>SIH25098</td>
+    <td>30%</td>
+    <td>N/A</td>
+    <td>Students are tasked with designing a 4-story commercial office building using Revit Architecture and Revit Structure , ensuring effective integration between architectural and structural models in a BIM environment.(The size of the plot can be assumed by the students, all the dimensions wherever necessary can be assumed by students in mm units.)</td>
+  </tr>
+  <tr>
+    <td>94</td>
+    <td>SIH25099</td>
+    <td>88%</td>
+    <td>Very High</td>
+    <td>AI-powered monitoring of crop health, soil condition, and pest risks using multispectral/hyperspectral imaging and sensor data.</td>
+  </tr>
+  <tr>
+    <td>95</td>
+    <td>SIH25100</td>
+    <td>70%</td>
+    <td>Low</td>
+    <td>Accelerating High-Fidelity Road Network Modeling for Indian Traffic Simulations.</td>
+  </tr>
+  <tr>
+    <td>96</td>
+    <td>SIH25101</td>
+    <td>72%</td>
+    <td>High</td>
+    <td>Remote classroom for rural colleges</td>
+  </tr>
+  <tr>
+    <td>97</td>
+    <td>SIH25102</td>
+    <td>83%</td>
+    <td>Medium</td>
+    <td>AI-based drop-out prediction and counseling system</td>
+  </tr>
+  <tr>
+    <td>98</td>
+    <td>SIH25103</td>
+    <td>50%</td>
+    <td>High</td>
+    <td>ERP-based Integrated Student Management system</td>
+  </tr>
+  <tr>
+    <td>99</td>
+    <td>SIH25104</td>
+    <td>79%</td>
+    <td>Medium</td>
+    <td>Language Agnostic Chatbot</td>
+  </tr>
+  <tr>
+    <td>100</td>
+    <td>SIH12507</td>
+    <td>75%</td>
+    <td>Very Low</td>
+    <td>Develop computer programs (in any language, preferably Python) to identify the design principles behind the Kolam designs and recreate the kolams.</td>
+  </tr>
+  <tr>
+    <td>101</td>
+    <td>SIH12508</td>
+    <td>68%</td>
+    <td>Low</td>
+    <td>Development of AI-powered FRA Atlas and WebGIS-based Decision Support System (DSS) for Integrated Monitoring of Forest Rights Act (FRA) Implementation. (States to be concentrated: Madhya Pradesh, Tripura , Odisha, Telangana)</td>
+  </tr>
+</table>
+
+</body>
+</html>
